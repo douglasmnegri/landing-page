@@ -5,52 +5,60 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Landing Page</title>
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/montserrat');
+            </style>
     </head>
     <body>
         <!-- header is responsible for the background colour of the first of the landing page-->
         <!-- top is resposible for the display and alignment-->
         <div class="header">
+            <div class="block">
             <div class="top">
-            <div class="logo">LOGO</div>
+            <img src="./images/chile-logo.png   " class="logo" alt="chile flag">
             <ul class="links">
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
+                <li>Cities to Visit</li>
+                <li>Things to Bring</li>
+                <li>Best Season</li>
             </ul>
             </div>
             <div class="middle-content">
                 <div class="left-mid">
-            <div class="title">This website is awesome</div>
-                <div class="subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-                <button class="sign-up">Sign up</button>
+            <div class="title">Chile? This country is awesome</div>
+                <div class="subtext">Where vibrant culture, stunning landscapes, and warm people come together, creating an unforgettable experience. A true South American gem!</div>
+                <a href="https://www.google.com/maps/d/edit?mid=1KmlJZlq3i5n8K9ekC-qa-KIHm5N9wJ8&usp=sharing" target="_blank">
+                <button class="sign-up">Itinerary</button>
+            </a>
             </div>
                 <img src="./images/cordillera.jpg" class="top-image" alt="cordillera de los andes">
             </div>
         </div>
+    </div>  
             <!-- The class text will make the division for each image-->
             <!-- background-mid is supposed to change the colour of the back ground-->
             <div id="background-mid">
-            <div class="mid-title">Some Random Information</div>
+            <div class="mid-title">What to do in Chilean lands?</div>
             <div class="boxes">
             
             <div class="info">   
             <img src="./images/atacama-desert.jpg" class="mid-images" alt="atacama desert">
-            <div class="text">this is some subtext under an illustration or image</div>
+            <div class="text">Termas Colinas is located in Cajón del Maipo, an Andean canyon in the southeast of Chile.</div>
             </div>
 
             <div class="info">
             <img src="./images/chile-flag.jpg" class="mid-images" alt="chile flag with cordillera in the background">
-            <div class="text">this is some subtext under an illustration or image</div>
+            <div class="text">Cordillera de los Andes crosses seven countries, located on the west coast of the subcontinent. A breathtaking view!</div>
             </div>
 
             <div class="info">
-            <img src="./images/chile-road.jpg" class="mid-images" alt="sinuous road in chile">
-            <div class="text">this is some subtext under an illustration or image</div>
+            <img src="./images/cerro-santalucia.jpg" class="mid-images" alt="sinuous road in chile">
+            <div class="text">Sky Costanera, an iconic skyscraper, offers mesmerizing views of Santiago, a must-visit for skyline enthusiasts.</div>
             </div>
             
             <div class="info">
             <img src="./images/patagonia.jpg" class="mid-images" alt="plants near the south of chile. patagonia.">
-            <div class="text">this is some subtext under an illustration or image</div>
+            <div class="text">Patagonia's stunning flora paints the landscape with vibrant, unique blooms, a natural masterpiece.</div>
             </div>
         </div> 
     </div>
@@ -58,20 +66,31 @@
 
         <div class="container-align">    
         <div class="quote">
-        This is an inspiring quote, or a testimonial from a customer. 
-        Maybe it's just filling space, or maybe people will actually read it. Who knows? All I know is that it look nice
+            <p>
+            Chile, cornucopia of purity, <br />
+            vase of yellow silence and green lava,<br />
+            forest, inkwell, chasm<br />
+            of Antarctic night at its darkest,<br />
+            Chile, I can't resist your soul.<br />
+        </p>
         </div>
         
-        <div id="signature">- Thor, God of Thunder</div>
+        <div id="signature">- Pablo Neruda, Chilean Poet</div>
     </div>
 </div>
 <!-- HTML might be the problem with this container instead of the CSS. I should review this part later.-->
+<div class="container-background">
     <div class="container-alignment">
         <div class="cta">
-        <div class="cta-title">Call to action! It's time!</div>
-        <div class="cta-content">Sign up for our product by clicking that button right over there!</div>    
+        <div class="cta-title">Starting planning you trip!</div>
+    <div class="cta-content">Check through our itinerary places to visit, eat and have fun on your trip!</div>    
     </div>
+    <a href="https://www.google.com/maps/d/edit?mid=1KmlJZlq3i5n8K9ekC-qa-KIHm5N9wJ8&usp=sharing" target="_blank">
         <button class="sign-in">Sign up</button>
+    </a>`
     </div>
+</div>
+
+<div class="footer">Copyright © The Odin Project 2021</div>
     </body>
 </html>
